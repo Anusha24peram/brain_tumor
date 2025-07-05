@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-r)uip5jq2=uzlwt4(vuit_=aklfrfem-!v5g%-bb@6lg$b#r-+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'brain_tumor'
+    'brain_tumor',
 ]
 
 MIDDLEWARE = [
