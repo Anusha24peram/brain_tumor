@@ -1,6 +1,5 @@
 django
 Numpy
 Pandas
-os
-tensorflow
+scikit-learn
 gunicorn
